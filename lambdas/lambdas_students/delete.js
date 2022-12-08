@@ -30,7 +30,7 @@ exports.handler = async event => {
             },
         };
 
-        const resp = {};
+        let resp = {};
 
         resp = await dynamo
             .get({
